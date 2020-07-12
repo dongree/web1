@@ -3,25 +3,61 @@
   <head>
     <title>KBO-Samsung Lions</title>
     <meta charset="utf-8">
+    <style>
+      a {
+        color:black;
+        text-decoration: none;
+      }
+      h1 {
+        font-size: 45px;
+        text-align: center;
+        border-bottom:1px solid gray;
+        margin:0;
+        padding:20px;
+      }
+      ol{
+        border-right: 1px solid gray;
+        width: 110px;
+        margin:0;
+        padding:20px;
+      }
+      body{
+        margin:0;
+      }
+      #grid{
+        display: grid;
+        grid-template-columns: 150px 1fr;
+      }
+      #grid ol{
+        padding-left: 30px;
+      }
+      #article{
+        padding-left: 25px;
+      }
+    </style>
   </head>
 
   <body>
     <h1><a href="index.html"> KBO</a></h1>
-    <ol>
-      <li><a href="1.html">Samsung lions</a></li>
-      <li><a href="2.html">KIA Tigers</a></li>
-      <li><a href="3.html">LG Twins</a></li>
-    </ol>
+    <div id="grid">
+      <ol>
+        <li><a href="1.html">Samsung lions</a></li>
+        <li><a href="2.html">KIA Tigers</a></li>
+        <li><a href="3.html">LG Twins</a></li>
+      </ol>
 
+      <div id="article">
+        <h2>Samsung lions?</h2>
 
-    <h2>Samsung lions?</h2>
-
-    <p>The Samsung Lions (Korean: 삼성 라이온즈) are a South Korean professional baseball team founded in 1982.
-      They are based in the southeastern city of Daegu and are members of the KBO League. Their home stadium is Daegu Samsung Lions Park.
-      They have won the Korean Series eight times (they have also finished runner-up ten times).
-      The Samsung Lions is the first team to win four consecutive Korean Series titles (2011, 2012, 2013, 2014). 
-      The Samsung Lions are also the first Korean team ever to win a regular league title for five consecutive years (2011, 2012, 2013, 2014, 2015).</p>
-
-    <img src="baseball.jpg" width="100%">
+        <p>The Samsung Lions (Korean: 삼성 라이온즈) are a South Korean professional baseball team founded in 1982.
+          They are based in the southeastern city of Daegu and are members of the KBO League. Their home stadium is Daegu Samsung Lions Park.
+          They have won the Korean Series eight times (they have also finished runner-up ten times).
+          The Samsung Lions is the first team to win four consecutive Korean Series titles (2011, 2012, 2013, 2014).
+          The Samsung Lions are also the first Korean team ever to win a regular league title for five consecutive years (2011, 2012, 2013, 2014, 2015).</p>
+      </div>
+    </div>
+    <p>
+      <iframe width="500" style="float: right;" height="300" src="https://www.youtube.com/embed/ktqRGvHhd7o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </p>
   </body>
 </html>
